@@ -2,7 +2,7 @@
 
 **Lab Report 1**
 
-[Marvel](marvel.jpeg)
+[Image](marvel.jpeg)
 [Google](https://www.google.com/)
 
 
