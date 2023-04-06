@@ -2,8 +2,7 @@
 
 **Lab Report 1**
 
-[Image](https://d23.com/app/uploads/2022/08/1180w-600h_080222_marvel-d23-expo_00.jpg)
-[Image](http://url/a.png)
+[Marvel](marvel.jpeg)
 [Google](https://www.google.com/)
 
 
