@@ -4,7 +4,7 @@
 [Link] (https://www.google.com/)
 
 
-*italic* \n
+*italic* 
 **bold**
 
 3. # header 1
