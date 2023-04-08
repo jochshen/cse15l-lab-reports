@@ -5,7 +5,7 @@
 **Part 1 - Create CSE15L Account** 
 1. Log into your account using [this](https://sdacs.ucsd.edu/~icc/index.php) link and your USCD account info.
 2. Press on the button that starts with cs15l
-![Image](buttonImage.png)
+![Image](LabImages/buttonImage.png)
 3. Press "Global Password Change Tool"
 4. Press "Proceed to the Password Change Tool" 
 5. Scroll down, and for username, enter the letters on the box in step 2 (should start with cs15l)
