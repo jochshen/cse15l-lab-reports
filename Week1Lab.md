@@ -28,7 +28,7 @@
 5. To make sure you're on the right track, the right of the terminal should say ```bash```
 ![Image](LabImages/Bash.png)
 6. In the terminal, type ```ssh <username from Part 1 step 5>@ieng6.ucsd.edu```
-7. Enter the password you made from Part 1 (you won't see anything so really focus and don't make typos :blush:)
+7. Enter the password you made from Part 1 (you won't see anything so really focus and don't make typos:) )
 After a couple seconds, you'll be prompted with a message that might look like 
 
 ```ssh cs15lsp23zz@ieng6.ucsd.edu The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])?```
