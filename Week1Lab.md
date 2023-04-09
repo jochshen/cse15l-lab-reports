@@ -8,12 +8,12 @@
 ![Image](LabImages/buttonImage.png)
 3. Press "Global Password Change Tool"
 4. Press "Proceed to the Password Change Tool" 
-5. Scroll down, and for username, enter the letters on the box in step 2 (should start with cs15l)
+5. Scroll down and for username, enter the letters on the box in step 2 (should start with cs15l)
 6. Sign in and they'll send an link to your school email to reset the password. 
 
 **Part 2 - Visual Studio Code** 
 1. Press [this](https://code.visualstudio.com/) link and follow the instructions to download Visual Studio Code 
-2. After following the instructions, first window should look something like this 
+2. After following the instructions,your first window should look something like this 
 ![Image](LabImages/vscode.png)
 3. This is where you'll do most of you coding but for today, we'll just be linking your account 
 
@@ -35,7 +35,7 @@ After a couple seconds, you'll be prompted with a message that might look like
 
 **Type yes**
 
-9. Your screen should look something like this 
+Your screen should look something like this 
 ![Image](LabImages/stats.png)
 This means that you were successful
 
@@ -48,7 +48,7 @@ Try running some of these commands in the terminal!
 * ```ls <directory>```, directory is ```/home/linux/ieng6/cs15lsp23/cs15lsp23abc``` where ```abc``` is one of the other group members' username 
 * ```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```
 
-This is what mines looks like 
+These are what your outputs should look like. 
 ![Image](LabImages/examples.png)
 
 *When you're done, type exit to log out* 
