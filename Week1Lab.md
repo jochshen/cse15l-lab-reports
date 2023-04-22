@@ -24,11 +24,11 @@
 4. Locate the terminal button on the top and press "New Terminal" 
 ![Image](LabImages/terminal.png)
 5. After pressing ``` Terminal ``` and  ``` New Terminal ```, a black box should pop up on the bottom 
-![Image](LabImages/terminalBox.png) 
+![Image](LabImages/Terminal.png) 
 5. To make sure you're on the right track, the right of the terminal should say ```bash```
-![Image](LabImages/Bash.png)
+![Image](LabImages/Bash2.png)
 6. In the terminal, type ```ssh <username from Part 1 step 5>@ieng6.ucsd.edu```
-7. Enter the password you made from Part 1 (you won't see anything so really focus and don't make typos:) )
+7. Enter the password you made from Part 1 (you won't see anything so don't make any typos )
 After a couple seconds, you'll be prompted with a message that might look like 
 
 ```ssh cs15lsp23zz@ieng6.ucsd.edu The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])?```
@@ -50,6 +50,18 @@ Try running some of these commands in the terminal!
 
 These are what your outputs should look like. 
 ![Image](LabImages/examples.png)
+
+Some of them explained 
+1. ```cd \```
+![Image](LabImages/rootDirectory.png)
+This takes you to the root directory which is just  ```\```. If I put ```ls``` after, you can see all files and directories within this root directory. We use public.
+2. ```cd ..``` 
+![Image](LabImages/allNames.png)
+This takes you one directory back, from ```cd home/linux/ieng6/cs151sp23/cs15lsp23ho``` to ```cd home/linux/ieng6/cs151sp23```. This directory contains the account usernames of all the students in CS15L SP23. 
+3. ```mkdir hello``` 
+![Image](LabImages/mkdir.png)
+This command allows you to create a new directory. As you can see after I did ```mkdir hello```, when I type ```ls```, a new directory called ```hello``` appears alongside ```wavelet``` and ```per15```
+
 
 *When you're done, type exit to log out* 
 
