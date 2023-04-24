@@ -62,7 +62,7 @@ Code:
   
 Symptom: 
 ![Image](LabImages2/symptom.png)
-When I created ```int[] newArray```, depsite the length, all elements in the int[] were initialized to 0. The reason that the array is return 0 is because in line 21, ```arr[i] = newArray[arr.length - i - 1];```. This basically sets all elements in arr[] = 0, so it returned 0 instead of 3. 
+When I created ```int[] newArray```, depsite the length, all elements in the int[] were initialized to 0. The reason that the array is return 0 is because in line 21 (first screenshot of code), ```arr[i] = newArray[arr.length - i - 1];```. This basically sets all elements in arr[] = 0, so it returned 0 instead of 3. 
  
 Before: 
 ```
