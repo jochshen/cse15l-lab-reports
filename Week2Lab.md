@@ -24,7 +24,7 @@ First Call:
   
 **Second Call:**
 ![Image](LabImages2/ex2.png)
-- ```ArrayList s``` looks like {"10000000000000000000000000000"} since it was craeted outside the method
+- ```ArrayList s``` looks like {"10000000000000000000000000000"} since it was created outside the method
 - String ```result``` is empty because the method is called once again 
 - ```.getPath()``` used with ```.equals()``` with argument "/add-message" to check if the url contains the string "/add-message" in its path
 - ```getQuery()``` is passed with ```.split()```. ```getQuery()``` returns a new String with all characters after the "?". From
@@ -61,9 +61,9 @@ Code:
 ```
   
 Symptom: 
-![Image](LabImages2/symptoms.png)
+![Image](LabImages2/symptom.png)
 When I created ```int[] newArray```, depsite the length, all elements in the int[] were initialized to 0. The reason that the array is return 0 is because in line 21, ```arr[i] = newArray[arr.length - i - 1];```. This basically sets all elements in arr[] = 0, so it returned 0 instead of 3. 
-  
+ 
 Before: 
 ```
     static int[] reversed(int[] arr) {
