@@ -89,7 +89,7 @@ I just changed the references on line 4 for the block of code. Now, the values o
   
  --- 
   
-  ## Part 3 ##
+## Part 3 ##
   
   In lab 2, I learned the basics on how to create your own server and update the page. I learned that you were able to run a server on your local computer's host and create basic methods/functions based on the messages you enter on the path. For example, "add-message" and "s=<String>" (which helps to keep return strings enetered that contain a specific String). It was interesting to see how the user can interact with a webpage on a very surface level. 
 
