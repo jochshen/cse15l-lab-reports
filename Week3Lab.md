@@ -7,7 +7,7 @@ I used ChatGPT to look up these commands
 
 
 1. ```grep -w ``` : searches for the whole word in the file 
-``` Ex. 
+``` 
 Input: grep -w "fax" 911report/*
 
 Output: 
@@ -20,7 +20,7 @@ Output:
 
 ***```grep -w``` searched through all the 911reports ```.txt``` files and compared it to the word "fax". It returned the line with the word and the name of the file that has the word.*** 
 
-```Ex. 
+```
 Input: grep -w "Lee H. Hamilton" 911report/*
 
 Output:
