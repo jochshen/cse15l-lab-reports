@@ -28,16 +28,20 @@ Output:
 911report/chapter-13.3.txt:            107. For Congress's domestic orientation, see Lee H. Hamilton, How Congress Works and
 911report/preface.txt:            Lee H. Hamilton, vice chair
 ```
+
 ***This is a more specific lookup the resulting output should have less files***
 
 2. `grep -n ` : searches for the specific word in the file and returns the actual line contents and line number it appears. Helpful when you're  searching through a large file and want to quickly locate the exact line where a pattern appears.
+
 ``` 
 Input: grep "n" "Payoffs" 911report/*
 
 Output: 
 911report/chapter-3.txt:870:                basic research, detailed and reflective. Payoffs might not be immediate. But when
 ```
+
 ***The number in between the two ```:``` ```:``` represents the line number the word appears in. Here, it appears on line 870.***
+
 ```
 Input: grep -n "citizens" 911report/chapter-3.txt 
 
@@ -47,6 +51,7 @@ Output:
 1624:                as their reason their revocation of his citizenship.
 1728:                Ladin's supporters might retaliate, perhaps taking U.S. citizens in Kandahar
 ```
+
 ***Since I specified which specific file and didn't use `*`, it didn't return the file name like the other example. It just display the line number and contents of the line the word appears in.***
 
 3. ` grep -c `: returns the number of times the word appears. Helpful when you want to count the number of times a pattern appears in a file.
@@ -65,6 +70,7 @@ Input: grep -c "asldkasfas" government/Alcohol_Problems/DraftRecom-PDF.txt
 Output: 
 0
 ```
+
 ***This means that the word ```asldkasfas``` appears in the file 0 times.***
 
 4. `grep -e`: allows you to search for multiple patterns or words. It is useful when you're searching for variations of a word or phrase.
