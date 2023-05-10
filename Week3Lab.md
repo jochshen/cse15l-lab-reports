@@ -1,8 +1,8 @@
-# Week 3 Lab 
+# Week 3 Lab #
 
 I used ChatGPT to look up these commands
 -
-##  **```grep``` searches for pattern(s) within a file or can search for a pattern within file names in a directory. It's useful when you want to search for a specific word or exact pattern, rather than a partial match.** 
+##  **```grep``` searches for pattern(s) within a file or can search for a pattern within file names in a directory. It's useful when you want to search for a specific word or exact pattern, rather than a partial match.** ##
 
 
 
