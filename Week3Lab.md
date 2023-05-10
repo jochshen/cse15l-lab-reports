@@ -6,7 +6,7 @@ I used ChatGPT to look up these commands
 
 
 
-1. `grep -w` : searches for the whole word in the file. Useful if you want to for words across multiple files
+1. `grep -w` : searches for the whole word in the file. Useful if you want to search for words across a single or multiple files.
 ``` 
 Input: grep -w "fax" 911report/*
 
