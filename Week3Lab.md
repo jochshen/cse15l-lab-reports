@@ -17,7 +17,7 @@ Output:
 911report/chapter-13.4.txt:                discovered among his possessions a fax copy of an advertisement for U.S. flight
 ```
 
-***```grep -w``` searched through all the 911reports ```.txt``` files and compared it to the word "fax". It returned the line with the word and the name of the file that has the word.*** 
+***`grep -w` searched through all the 911reports `.txt` files and compared it to the word "fax". It returned the line with the word and the name of the file that has the word.*** 
 
 ```
 Input: grep -w "Lee H. Hamilton" 911report/*
@@ -28,7 +28,7 @@ Output:
 ```
 ***This is a more specific lookup the resulting output should have less files***
 
-2. ```grep -n ``` : searches for the specific word in the file and returns the actual line contents and line number it appears. Helpful when you're  searching through a large file and want to quickly locate the exact line where a pattern appears.
+2. `grep -n ` : searches for the specific word in the file and returns the actual line contents and line number it appears. Helpful when you're  searching through a large file and want to quickly locate the exact line where a pattern appears.
 ``` Ex.
 Input: grep "n" "Payoffs" 911report/*
 
