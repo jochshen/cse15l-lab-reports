@@ -1,6 +1,9 @@
 # Week 3 Lab 
 
- **```grep``` searches for pattern within a file or can search for a pattern within file names in a directory. It's useful when you want to search for a specific word or exact pattern, rather than a partial match**
+I used ChatGPT to look up these commands
+-
+##  **```grep``` searches for pattern(s) within a file or can search for a pattern within file names in a directory. It's useful when you want to search for a specific word or exact pattern, rather than a partial match.** 
+
 
 
 1. ```grep -w ``` : searches for the whole word in the file 
