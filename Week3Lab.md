@@ -7,8 +7,10 @@ I used ChatGPT to look up these commands
 
 
 1. `grep -w` : searches for the whole word in the file. Useful if you want to search for words across a single or multiple files.
+
 ``` 
 Input: grep -w "fax" 911report/*
+
 Output: 
 911report/chapter-1.txt:    He was, and is, right. But the conflict did not begin on 9/11. It had been publicly declared years earlier, most notably in a declaration faxed early in 1998 to an Arabic-language newspaper in London. Few Americans had noticed it. The fax had been sent from thousands of miles away by the followers of a Saudi exile gathered in one of the most remote and impoverished countries on earth.
 911report/chapter-13.3.txt:                Sudanese regime notified him there by fax. See Tim Carney interview (Dec. 4, 2003);
