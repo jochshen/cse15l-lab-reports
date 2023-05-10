@@ -60,7 +60,7 @@ Input: grep -c "asldkasfas" government/Alcohol_Problems/DraftRecom-PDF.txt
 Output: 
 0
 ```
-***This means that the word ```asldkasfas``` appears in the file 0 times. ***
+***This means that the word ```asldkasfas``` appears in the file 0 times.***
 
 4. ```grep -e```: allows you to search for multiple patterns or words. It is useful when you're searching for variations of a word or phrase. 
 ``` 
@@ -79,4 +79,4 @@ cardiovascular disease. Caution may also extend to individuals predisposed to th
         causative link to the COX-2 inhibitor. However, it also remains formally possible that this
         also interact with genetic and environmental factors that predispose to the risk of
 ```
-***Each line has to contain at least one of the words you are comparing it to.***
+***Each line has to contain at least one of the words you are comparing it to. Looked through the file for ```Cox-2``` and ```also```.***
