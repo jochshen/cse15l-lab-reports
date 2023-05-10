@@ -6,7 +6,7 @@ I used ChatGPT to look up these commands
 
 
 
-1. ```grep -``` : searches for the whole word in the file 
+1. ```grep -w``` : searches for the whole word in the file 
 ``` 
 Input: grep -w "fax" 911report/*
 
