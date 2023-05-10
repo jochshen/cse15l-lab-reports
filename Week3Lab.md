@@ -52,7 +52,7 @@ Output:
 1728:                Ladin's supporters might retaliate, perhaps taking U.S. citizens in Kandahar
 ```
 
-***Since I specified which specific file and didn't use `*`, it didn't return the file name like the other example. It just display the line number and contents of the line the word appears in.***
+***Since I specified which specific file and didn't use `*`, it didn't return the file name like the other example. It just displayed the line number and contents of the line the word appears in.***
 
 3. ` grep -c `: returns the number of times the word appears. Helpful when you want to count the number of times a pattern appears in a file.
 
@@ -94,4 +94,3 @@ cardiovascular disease. Caution may also extend to individuals predisposed to th
 
 ***Each line has to contain at least one of the words you are comparing it to. Looked through the file for `Cox-2` and `also`.***
 
-update
