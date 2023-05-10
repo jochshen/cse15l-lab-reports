@@ -49,7 +49,8 @@ Output:
 ```
 ***Since I specified which specific file and didn't use `*`, it didn't return the file name like the other example. It just display the line number and contents of the line the word appears in.***
 
-3. ` grep -c `: returns the number of times the word appears. Helpful when you want to count the number of times a pattern appears in a file,
+3. ` grep -c `: returns the number of times the word appears. Helpful when you want to count the number of times a pattern appears in a file.
+
 ```
 Input: grep -c "a" government/About_LSC/Comments_on_semiannual.txt 
 
@@ -66,7 +67,8 @@ Output:
 ```
 ***This means that the word ```asldkasfas``` appears in the file 0 times.***
 
-4. `grep -e`: allows you to search for multiple patterns or words. It is useful when you're searching for variations of a word or phrase. 
+4. `grep -e`: allows you to search for multiple patterns or words. It is useful when you're searching for variations of a word or phrase.
+ 
 ``` 
 Input:  grep -e "Ethics" -e "Ethical" plos/pmed.0020192.txt
 
@@ -83,4 +85,5 @@ cardiovascular disease. Caution may also extend to individuals predisposed to th
         causative link to the COX-2 inhibitor. However, it also remains formally possible that this
         also interact with genetic and environmental factors that predispose to the risk of
 ```
+
 ***Each line has to contain at least one of the words you are comparing it to. Looked through the file for `Cox-2` and `also`.***
