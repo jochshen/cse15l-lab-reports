@@ -12,8 +12,9 @@ Keystrokes:
 ![Image](LabImages4/gitClone.png)
 Keystrokes: 
 
-- `git clone https://github.com/ucsd-cse15l-s23/lab7 <enter>`.
-*I typed `ls <enter>` to make sure it succesfully cloned*
+- `git clone https://github.com/ucsd-cse15l-s23/lab7 <enter>`. *clones repository*
+
+- `ls <enter>` *I typed **ls** to make sure it succesfully cloned*
 
 ## Run the tests ##
 ![Image](LabImages4/javaError.png)
