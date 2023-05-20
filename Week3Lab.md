@@ -1,7 +1,12 @@
 # Week 3 Lab #
 
 I used ChatGPT to look up these commands
--
+
+Input: What are some useful grep commands to use? 
+
+Output: It gave an output of a series of commands such as `-w`,`-n`,`-c`,`-r`, etc and a small description of their uses. From there, I tested them out on my own and explained whichever one I found the most helpful. 
+
+---
 ##  **```grep``` searches for pattern(s) within a file or can search for a pattern within file names in a directory. It's useful when you want to search for a specific word or exact pattern, rather than a partial match.** ##
 
 
