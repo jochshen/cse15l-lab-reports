@@ -6,7 +6,7 @@
 ![Image](LabImages4/loggingSSH.png)
 Keystrokes: 
 
-- `ssh cs15lsp23ho@ieng6.ucsd.edu <enter>`
+- `ssh cs15lsp23ho@ieng6.ucsd.edu <enter>` *ssh into remote account*
 
 5. Clone the Lab7 Repository 
 ![Image](LabImages4/gitClone.png)
@@ -30,15 +30,13 @@ ListExamplesTests`
 ![Image](LabImages4/editVim.png)
 Keystrokes:
 
-- `vim ListExmaples` 
+- `vim ListExmaples` *open ListExamples in vim*
 
-- `/x1 9n <enter>` 
-
-- *`/x1` looks through file for words that contain "x1" and "9n" goes to the 9th instance*
+- `/x1 9n <enter>`   ***x1** looks through file for words that contain "x1" and **9n** goes to the 9th instance*
 
 - `a` *to enter insert mode*
 
-- `<backspace> 2` *changes "index1" to "index2" *
+- `<backspace> 2` *changes "index1" to "index2"*
 
 - `<escape> :wq` *saves file* 
 
@@ -61,15 +59,17 @@ Keystrokes:
 
 - `git commit` *prompts you to a new commit file in vim that I didn't screenshot*
 
-  - *in vim commit file*
+    *in vim commit file*
 
   - `a` *enter insert mode in vim`
  
   - `Fixed index1 to index2` *commit message at the top*
 
   - `<escape> :wq` *saves commit message file* 
+
+  *exits vim commit file*
  
- - `git push git@github.com:jochshen/lab7.git` *pushes to changes to ssh link*
+ - `git push git@github.com:jochshen/lab7.git` *pushes changes to ssh link*
  
  
 ![Image](LabImages4/githubUpdated.png)
