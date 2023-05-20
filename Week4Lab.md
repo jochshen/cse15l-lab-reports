@@ -57,7 +57,7 @@ Keystrokes:
 
 - `git add.` *adds changes*
 
-- `git commit` *prompts you to a new commit file in vim that I didn't screenshot*
+- `git commit` *prompts you to a new commit file in vim*
 
     *in vim commit file*
 
