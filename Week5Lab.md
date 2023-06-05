@@ -64,6 +64,7 @@ Hi Josh, after looking at your code it seems that the heap may run out of space 
 *It passes all the tests. You were right, I had to iterate `index2` and not `index1`. Now that I know it pasts this tests, I will continue to write more right now!*
 
 **Summary**
+
 I used the Lab7 file we used in lab which had the bug of switching `index1` and `index2`. To make the test cases more readible, I deleted this test case since it passed 
 ```
 	@Test(timeout = 500)
@@ -72,7 +73,8 @@ I used the Lab7 file we used in lab which had the bug of switching `index1` and 
 		List<String> l2 = new ArrayList<Strin>(Arrays.asList("a", "b"));
 		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
 	}
-```. 
+	
+```
 In terms of command-line arguments, since the repository came with the test.sh file, all I had to do was type `bash test.sh` to test it out and run JUnit on VS Code for extra messages. 
 
 
@@ -80,7 +82,7 @@ In terms of command-line arguments, since the repository came with the test.sh f
 
 ## Reflection ##
 
-
+I think the most useful thing I learned in lab was about directories and git commands. I've already begun using what I know about directories to `cd` and `ls` some of my current projects and cool to what I learn in the classroom and its real world applications. I've also begun using git commands such as `git add.` `git clone <link>`, `git commit` and `git push`. 
 
 
 
