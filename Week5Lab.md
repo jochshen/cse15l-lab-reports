@@ -2,6 +2,7 @@
 
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
+
 I am on a Macbook Pro with an M1 chip. I am using google chrome and my editor is VS Code. 
 
 
@@ -51,7 +52,8 @@ static List<String> merge(List<String> list1, List<String> list2) {
 
 **TA RESPONSE**
 
-Hi Josh, after looking at your code it seems that the heap may run out of space because one of your while loops never turns to false and keeps running. This can explain why you heap may run out of space and why your test timed out after 500 milliseconds, because the while loop will keep excuting. If you look at line 44, you set `index1 += 1` but your while condition is ` while (index2 < list2.size()`. Your `index2` is never iterated so the while condition remains true and the body keeps executing. Try changing `index1+= 1;` to `index2 += 1` to correctly interate your `index2`. 
+Hi Josh, after looking at your code it seems that the heap may run out of space because one of your while loops never turns to false and keeps running. This can explain why you heap may run out of space and why your test timed out after 500 milliseconds, because the while loop will keep excuting. If you look at line 44, you set `index1 += 1` but your while condition is ` while (index2 < list2.size()`. Your `index2` is never iterated so the while condition remains true and the body keeps executing. Try changing `index1+= 1;` to `index2 += 1` to correctly interate your `index2`. However, I would reccomend you write more JUnits tests as well since you only have one. As professor Cao say, tests **everything**.
+
 
 
 **Student Response**
@@ -59,6 +61,29 @@ Hi Josh, after looking at your code it seems that the heap may run out of space 
 *It worked!*
 ![Image](LabImages5/debugged.png)
 ![Image](LabImages5/junitDebug.png)
+*It passes all the tests. You were right, I had to iterate `index2` and not `index1`. Now that I know it pasts this tests, I will continue to write more right now!*
+
+**Summary**
+I used the Lab7 file we used in lab which had the bug of switching `index1` and `index2`. To make the test cases more readible, I deleted this test case since it passed 
+```
+	@Test(timeout = 500)
+	public void testMerge1() {
+    	List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));
+		List<String> l2 = new ArrayList<Strin>(Arrays.asList("a", "b"));
+		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
+	}
+```. 
+In terms of command-line arguments, since the repository came with the test.sh file, all I had to do was type `bash test.sh` to test it out and run JUnit on VS Code for extra messages. 
+
+
+
+
+## Reflection ##
+
+
+
+
+
 
 
 
