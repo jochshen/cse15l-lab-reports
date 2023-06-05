@@ -82,8 +82,7 @@ In terms of command-line arguments, since the repository came with the test.sh f
 
 ## Reflection ##
 
-I think the most useful thing I learned in lab was about directories and git commands. I've already begun using what I know about directories to `cd` and `ls` some of my current projects and cool to what I learn in the classroom and its real world applications. I've also begun using git commands such as `git add.` `git clone <link>`, `git commit` and `git push`. 
-
+I think the most useful thing I learned in lab was about directories and git commands. I've already begun using what I know about directories to `cd` and `ls` some of my current projects and cool to what I learn in the classroom and its real world applications. I've also begun using git commands such as `git add.` `git clone <link>`, `git commit` and `git push`. I konw these are used everyday in many workspaces so I'm very glad to have learn them in this class. 
 
 
 
