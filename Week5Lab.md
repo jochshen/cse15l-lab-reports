@@ -52,7 +52,7 @@ static List<String> merge(List<String> list1, List<String> list2) {
 
 **TA RESPONSE**
 
-Hi Josh, after looking at your code it seems that the heap may run out of space because one of your while loops never turns to false and keeps running. This can explain why you heap may run out of space and why your test timed out after 500 milliseconds, because the while loop will keep excuting. If you look at line 44, you set `index1 += 1` but your while condition is ` while (index2 < list2.size()`. Your `index2` is never iterated so the while condition remains true and the body keeps executing. Try changing `index1+= 1;` to `index2 += 1` to correctly interate your `index2`. However, I would reccomend you write more JUnits tests as well since you only have one. As professor Cao say, tests **everything**.
+Hi Josh, after looking at your code it seems that the heap may run out of space because one of your while loops never turns to false and keeps running. This can explain why you heap may run out of space and why your test timed out after 500 milliseconds, because the while loop will keep excuting. If you look at line 44, you set `index1 += 1` but your while condition is `while (index2 < list2.size()`. Your `index2` is never iterated so the while condition remains true and the body keeps executing. Try changing `index1+= 1;` to `index2 += 1` to correctly interate your `index2`. However, I would reccomend you write more JUnits tests as well since you only have one. As professor Cao say, tests **everything**.
 
 
 
